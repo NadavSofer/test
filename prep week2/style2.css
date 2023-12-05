@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+li {
+    border: red solid 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#first {
+    border: blue dotted 10px;
+}
+
+.dash {
+    border: green dashed 10px;
+}
+
+.yafa {
+    border: black solid 20px;
+}

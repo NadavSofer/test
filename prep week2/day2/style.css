@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+#group {
+    width: 20%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+}
+#group:hover {
+    background-color: aqua;
+}
+
+.text {
+    color: black;
+}
+
+#red {
+    color: red;
+}
+
+#bold {
+    font-weight: bold;
+}
