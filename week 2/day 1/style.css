@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* 240-600: red 
+601-840: blue 
+500-900: padding 50px */

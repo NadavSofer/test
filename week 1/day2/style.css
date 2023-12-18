@@ -1,0 +1,33 @@
+h1 {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    background-color: red;
+    overflow-y: scroll;
+    transition: 0.5s;
+    width: 20%;
+}
+
+h1:hover {
+    background-color: blue;
+    width: 50%;
+}
+
+body {
+
+    background-color: black;
+    color: aliceblue;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.div1 {
+    padding: 20px;
+    background-color: orange;
+    width: fit-content;
+}
+
+.div1 p{
+    color: red;
+}
