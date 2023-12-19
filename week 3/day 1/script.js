@@ -1,18 +1,38 @@
-let thing = 'hello world'
+let name = 'value'
+let str = 'text'
+let num = 6
+let bool = true
+let un;
+let v = null  
+let array = [12, 15, 17, 'num']
+let object = {
+    key: 'value',
+    name: 'Nadav'
+}
+let x = str.indexOf('x')
+// console.log(x); 
 
-// console.log(thing);
+// ---------------------------
 
-let a = 5
-let b = true;
-let c = 5+20
+let str2 = 'hello, its me '+ str + num + bool
+let str3 = "hello it's me" 
+let str4 = `${str} text ${num}`
 
-// console.log(b);
-// console.log(a + c);
-
-// console.log(a*c+(b+a-1));
+// console.log(str4);
 
 
+let sentence = 'Hello Sarah, HOW ARE YOU?'
+// console.log(sentence.toLowerCase());
+// console.log('hello' * 5);
 
-let string = `look it's the number ${a*5}`;
-let sub = string.substring(0,4)
-console.log(sub);
+// console.log(10.6569842486.toFixed(0));
+
+// -----------------------
+let users = ['mike', 'steve', 'greg']
+users.push('sarah')
+users.pop()
+users.splice(1, 0, 'yaffa', 'odaya')
+
+let first3 = users.slice(0, 3)
+console.log(users);
+console.log(first3);
