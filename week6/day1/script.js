@@ -27,18 +27,29 @@
 //     setTimeout(saidNo, 5000)
 // }
 
-// let xfgnsfgnsfx = 0
-// setInterval(() => {
-//     console.log(xfgnsfgnsfx);
-//     xfgnsfgnsfx++
-// }, 3000);
+
+// let counter = 0;
+// const intervalId = setInterval(() => {
+//     console.log(counter);
+//     counter++;
+
+//     if (counter > 5) {
+//         clearInterval(intervalId);
+//         console.log('Interval cleared at counter 5');
+//     }
+// }, 1000);
 
 
-let id;
-function setInter() {
-    let num = 0
-    id = setInterval(function () {
-        console.log(num);
-        num++
-    }, 1000);
+let counter = 0;
+let intervalId = setInterval(intervalFunction, 1000);
+
+function intervalFunction() {
+    console.log(counter);
+    counter++;
+
+    if (counter === 5) {
+        clearInterval(intervalId);
+        console.log('Interval cleared at counter 5');
+    }
 }
+
