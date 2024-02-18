@@ -1,0 +1,67 @@
+[
+    {
+        "name": "United States of America",
+        "capital": "Washington, D.C.",
+        "languages": [
+            "English"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+    },
+    {
+        "name": "United Kingdom",
+        "capital": "London",
+        "languages": [
+            "English"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+    },
+    {
+        "name": "France",
+        "capital": "Paris",
+        "languages": [
+            "French"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+    },
+    {
+        "name": "China",
+        "capital": "Beijing",
+        "languages": [
+            "Chinese"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "languages": [
+            "German"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+    },
+    {
+        "name": "Brazil",
+        "capital": "Brasília",
+        "languages": [
+            "Portuguese"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg"
+    },
+    {
+        "name": "India",
+        "capital": "New Delhi",
+        "languages": [
+            "Hindi",
+            "English"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+    },
+    {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "languages": [
+            "Japanese"
+        ],
+        "image_link": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
+    }
+]
