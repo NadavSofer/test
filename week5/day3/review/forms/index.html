@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="personform">
+        <p>name:</p>
+        <input type="text" id="name" required minlength="8" maxlength="14" placeholder="please write a name">
+        <span id="nameResult"></span>
+
+        <p>age:</p>
+        <input type="number" id="age" min="0" max="150">
+        <br>
+
+        <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" size="2"/>-
+        <input name="tel2" type="tel" pattern="[0-9]{7}" placeholder="#######" size="5"/>
+
+        <button type="submit">submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
