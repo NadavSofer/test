@@ -67,3 +67,26 @@ myCar.year = 2024
 
 console.log(myCar1);
 console.log(myCar2);
+
+
+let carARR = [{
+    model: 'skoda octavia',
+    color: 'white'
+},
+{
+    model: 'skoda octavia',
+    color: 'white'
+}]
+
+let div = document.getElementById('whatever')
+
+const render = ()=>{
+    
+    for (const car of carARR) {
+        let model = document.createElement('p')
+        model.textContent = car.model
+        div.appendChild(model)
+    }
+}
+
+render()
