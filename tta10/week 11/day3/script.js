@@ -25,10 +25,36 @@ fetch("./countries.json")
     // console.log(data.data.classification_titles[1]);
 })
 
+fetch('./countries.json')
+.then((res)=> {
+    return res.json()
+})
+.then((countyList) => {
+    let container = document.getElementById('container')
+    for (const county of countyList) {
+        // creating the elements
+        let div = document.createElement('div')
+        let img = document.createElement('img')
+        let countyName = document.createElement('h3')
+        let capital = document.createElement('p')
+        let langs = document.createElement('p')
 
+        // filling elements with content
+        countyName.textContent = county.name
+        capital.textContent = county.capital
+        langs.textContent = county.languages.join(', ')
+        img.setAttribute('src', county.image_link)
+        img.style.height = '100px'
 
-for (const iterator of object) {
-    let test = document.createElement('div')
-    let img = document.createElement('img')
-    img.setAttribute('src', 'link')
-}
+        // adding elements to the div
+        div.appendChild(img)
+        div.appendChild(countyName)
+        div.appendChild(capital)
+        div.appendChild(langs)
+
+        //adding the div to the dom
+
+        container.appendChild(div)
+
+    }
+})
